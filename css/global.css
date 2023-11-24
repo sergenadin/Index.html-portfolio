@@ -22,6 +22,8 @@ nav ul {
 header {
   background-color: black;
   color: aliceblue;
+  text-align: center;
+  padding: 1%;
 }
 
 section {
@@ -30,10 +32,53 @@ section {
   border: 1px solid black;
 }
 
-div {
+/* div {
   display: flex;
   height: 100px;
   width: 100px;
   background-color: red;
   color: blue;
+} */
+
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#contact {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+}
+
+video {
+  width: 500px;
+  text-align: center;
+  align-self: center;
+}
+
+#mavideo {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
 }
