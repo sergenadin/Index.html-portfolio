@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: antiquewhite;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+header {
+  background-color: black;
+  color: aliceblue;
+}
+
+section {
+  min-height: 500px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+div {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  color: blue;
+}
