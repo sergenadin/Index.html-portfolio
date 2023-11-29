@@ -45,6 +45,8 @@ nav {
   display: flex;
   justify-content: center;
   padding: 1%;
+  position: sticky;
+  top: 0;
 }
 
 ul a {
@@ -61,6 +63,13 @@ ul a {
   justify-content: center;
   align-items: center;
   height: 250px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
 }
 
 footer {
@@ -81,4 +90,27 @@ video {
   display: flex;
   justify-content: center;
   padding: 2%;
+}
+
+#accueil p {
+  font-size: 20px;
+  font: weight 2px;
+  justify-content: center;
+  padding: 2%;
+  color: aqua;
+  font: bolder normal;
+}
+#competences p {
+  font-size: 20px;
+  font-weight: 2px;
+  justify-content: center;
+  padding: 2%;
+  color: aqua;
+  font: bolder small-caption;
+}
+
+section p {
+  background: rgb(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 1%;
 }
